@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/keziacampos/GitHub/Angular14_CRUD/OrgMat/OrgMat/OrgMat.csproj": {}
+  },
+  "projects": {
+    "/Users/keziacampos/GitHub/Angular14_CRUD/OrgMat/OrgMat/OrgMat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/keziacampos/GitHub/Angular14_CRUD/OrgMat/OrgMat/OrgMat.csproj",
+        "projectName": "OrgMat",
+        "projectPath": "/Users/keziacampos/GitHub/Angular14_CRUD/OrgMat/OrgMat/OrgMat.csproj",
+        "packagesPath": "/Users/keziacampos/.nuget/packages/",
+        "outputPath": "/Users/keziacampos/GitHub/Angular14_CRUD/OrgMat/OrgMat/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/keziacampos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "System.Data.SQLite.EF6": {
+              "target": "Package",
+              "version": "[1.0.117, )"
+            },
+            "angularjs": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
