@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OrgMat.Data;
 using OrgMat.Models;
+using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace OrgMat.Controllers
 {
@@ -18,10 +20,12 @@ namespace OrgMat.Controllers
 
         //Pagina de Lista
         [HttpGet]
-        public IActionResult Index() 
+        public async Task<IActionResult> Index()
         {
-            return View();
+            Task<List<TipoModel>> task = contexto.Tipo.ToListAsync();
+            return base.View(await task);
         }
+
 
         //Pagina de Cadastro
         [HttpGet]
