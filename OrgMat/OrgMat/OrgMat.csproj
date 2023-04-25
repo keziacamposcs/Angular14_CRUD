@@ -16,11 +16,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AngularJS.Route" Version="1.8.2" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.16" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.DataAnnotations" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.16" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    <PackageReference Include="Scripts" Version="1.0.0" />
     <PackageReference Include="System.Data.SQLite" Version="1.0.117" />
     <PackageReference Include="angularjs" Version="1.8.2" />
     <PackageReference Include="SQLite" Version="3.13.0" />
@@ -29,7 +34,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Material\" />
     <Folder Include="Views\Login\" />
   </ItemGroup>
 </Project>
