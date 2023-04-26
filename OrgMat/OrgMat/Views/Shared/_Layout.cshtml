@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/OrgMat.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/OrgMat.bootstrap-icons.scss" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.css">
+
 
 </head>
 <body>
 
     <header id="header" class="header fixed-top d-flex align-items-center d-print-none">
         <div class="d-flex align-items-center justify-content-between">
-            ..
+            <a class="navbar-brand" href="#"><img src="~/images/orgmaticon.png" alt="OrgMat Logo" width="120"></a>
         </div>
         <nav class="header-nav ms-auto">
             <ul class="d-flex align-items-center">
@@ -26,22 +27,33 @@
     </header>
 
     <aside id="sidebar" class="sidebar">
-        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">OrgMat</a>
-
         <ul class="sidebar-nav" id="sidebar-nav">
+
             <li class="nav-item">
                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a>
             </li>
+
             <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Material" asp-action="Index"> Material </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Tipo" asp-action="Index"> Tipo </a>
+                <a class="nav-link collapsed" data-bs-target="#listas_nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-card-checklist"></i><span>Listas</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="listas_nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Material" asp-action="Index">Material</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Tipo" asp-action="Index">Tipo</a></li>
+
+                </ul>
             </li>
 
+            <li class="nav-item">
+                <a class="nav-link collapsed" data-bs-target="#cadastros_nav" data-bs-toggle="collapse" href="#">
+                    <i class="bi bi-file-earmark-plus"></i><span>Cadastros</span><i class="bi bi-chevron-down ms-auto"></i>
+                </a>
+                <ul id="cadastros_nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Fornecedor" asp-action="Index">Fornecedor</a></li>
+                </ul>
+            </li>
+
+           
         </ul>
     </aside>
 

@@ -55,5 +55,59 @@ namespace OrgMat.Controllers
         }
         // Fim - Criando um novo Tipo
 
+        // Visualização
+        [HttpGet]
+        public async Task<IActionResult> Visualizar(int id)
+        {
+            var tipo = await contexto.Tipo.FirstOrDefaultAsync(t => t.id_tipo == id);
+
+            return View(tipo);
+        }
+        // Fim - Visualização
+
+
+        // GET: Página de edição
+        [HttpGet]
+        public async Task<IActionResult> Editar(int id)
+        {
+            var tipo = await contexto.Tipo.FirstOrDefaultAsync(t => t.id_tipo == id);
+            if (tipo == null)
+            {
+                return NotFound();
+            }
+            return View(tipo);
+        }
+
+        // POST: Atualizar registro
+        [HttpPost]
+        public async Task<IActionResult> Atualizar(TipoModel updateTipoRequest)
+        {
+            var tipo = await contexto.Tipo.FindAsync(updateTipoRequest.id_tipo);
+
+            if (tipo == null)
+            {
+                return NotFound();
+            }
+
+            tipo.tipo = updateTipoRequest.tipo;
+
+            try
+            {
+                await contexto.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet]
+        public IActionResult Excluir(int id)
+        {
+            var tipo = contexto.Tipo.Find(id);
+            return View(tipo);
+        }
+
     }
 }

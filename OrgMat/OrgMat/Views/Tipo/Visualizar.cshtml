@@ -1,22 +1,21 @@
 ﻿@model OrgMat.Models.TipoModel
 
 @{
-    ViewData["Title"] = "Cadastrar";
+    ViewData["Title"] = "Visualizar";
 }
 
 <div class="pagetitle">
-    <h1 class="display-4"> Cadastrar</h1>
+    <h1 class="display-4"> Visualização</h1>
 </div>
 
 <div class="row">
     <div class="col-lg-12">
         <div class="card">
             <div class="card-body">
-                <form method="post" action="Create">
+                <form method="post" action="Visualizar">
                     <label for="inputText" class="col-sm col-form-label">Tipo:</label>
-                    <input type="text" class="form-control" id="tipo" name="tipo" asp-for="tipo"/>
+                    <input type="text" class="form-control" id="tipo" name="tipo" asp-for="tipo" readonly/>
                     <br />
-                    <button type="submit" class="btn btn-primary" name="submit" value="submit">Cadastrar</button>
                 </form>
             </div>
         </div>
