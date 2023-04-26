@@ -18,14 +18,15 @@
                     <label for="inputText" class="col-sm col-form-label">Tipo:</label>
                     <input type="text" class="form-control" id="tipo" asp-for="tipo" />
                     <br />
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
                     <button type="submit" class="btn btn-primary" name="submit" value="submit">Atualizar</button>
                 </form>
-               
                 <form method="post" action="/Tipo/Deletar">
                     <input type="hidden" asp-for="id_tipo" />
                     <button type="submit" class="btn btn-danger">Deletar</button>
                 </form>
-
+                </div>
             </div>
         </div>
     </div>
