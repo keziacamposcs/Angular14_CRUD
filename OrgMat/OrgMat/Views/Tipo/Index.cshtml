@@ -27,7 +27,11 @@
                             <tr>
                                 <td>@item.id_tipo</td>
                                 <td>@item.tipo</td>
-                                <td><a href="Tipo/Visualizar/@item.id_tipo"><i class="bi bi-eye"></i></a></td>
+                                <td>
+                                    <a class="btn btn-primary" href="Tipo/Visualizar/@item.id_tipo"><i class="bi bi-eye"></i></a>
+                                    <a class="btn btn-success" href="Tipo/Atualizar/@item.id_tipo"><i class="bi bi-eye"></i></a>
+                                    <a class="btn btn-danger" href="Tipo/Deletar/@item.id_tipo"><i class="bi bi-eye"></i></a>
+                                </td>
                             </tr>
                         }
                     </tbody>
