@@ -20,7 +20,11 @@
                     <br />
                     <button type="submit" class="btn btn-primary" name="submit" value="submit">Atualizar</button>
                 </form>
-
+               
+                <form method="post" action="/Tipo/Deletar">
+                    <input type="hidden" asp-for="id_tipo" />
+                    <button type="submit" class="btn btn-danger">Deletar</button>
+                </form>
 
             </div>
         </div>

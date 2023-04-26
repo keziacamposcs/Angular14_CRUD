@@ -65,7 +65,7 @@ namespace OrgMat.Controllers
         }
         // Fim - Visualização
 
-
+        //Atualização
         // GET: Página de edição
         [HttpGet]
         public async Task<IActionResult> Editar(int id)
@@ -101,12 +101,21 @@ namespace OrgMat.Controllers
                 return BadRequest(ex.Message);
             }
         }
+        // Fim - Atualização
 
-        [HttpGet]
-        public IActionResult Excluir(int id)
+        //Deletar
+        [HttpPost]
+        public async Task<IActionResult> Deletar(TipoModel deleteTipoRequest)
         {
-            var tipo = contexto.Tipo.Find(id);
-            return View(tipo);
+            var tipo = await contexto.Tipo.FindAsync(deleteTipoRequest.id_tipo);
+
+            if (tipo == null)
+            {
+                return NotFound();
+            }
+            contexto.Tipo.Remove(tipo);
+            await contexto.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
 
     }
