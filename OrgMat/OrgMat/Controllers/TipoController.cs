@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using OrgMat.Data;
 using OrgMat.Models;
-using System.Data.Entity;
 using Microsoft.EntityFrameworkCore;
 
 namespace OrgMat.Controllers
@@ -22,8 +21,8 @@ namespace OrgMat.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            Task<List<TipoModel>> task = contexto.Tipo.ToListAsync();
-            return base.View(await task);
+            var tipos = await contexto.Tipo.ToListAsync();
+            return View(tipos);
         }
 
 
