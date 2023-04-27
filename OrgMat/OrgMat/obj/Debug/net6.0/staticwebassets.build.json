@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dpq2A8a3w+Wo/CfozIL08s1jygwtHmetKpp6+vYgtgg=",
+  "Hash": "QXMQYqOTkpMrp4ez7S0aIVWlOlweo2rQffZdeDZOnoI=",
   "Source": "OrgMat",
   "BasePath": "_content/OrgMat",
   "Mode": "Default",
@@ -1122,12 +1122,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\OP8973\\Documents\\GitHub\\OrgMatApp_CRUD\\OrgMat\\OrgMat\\wwwroot\\images\\orgmaticon.png",
+      "Identity": "C:\\Users\\OP8973\\Documents\\GitHub\\OrgMatApp_CRUD\\OrgMat\\OrgMat\\wwwroot\\images\\orgmat.png",
       "SourceId": "OrgMat",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\OP8973\\Documents\\GitHub\\OrgMatApp_CRUD\\OrgMat\\OrgMat\\wwwroot\\",
       "BasePath": "_content/OrgMat",
-      "RelativePath": "images/orgmaticon.png",
+      "RelativePath": "images/orgmat.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,7 +1136,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\orgmaticon.png"
+      "OriginalItemSpec": "wwwroot\\images\\orgmat.png"
     },
     {
       "Identity": "C:\\Users\\OP8973\\Documents\\GitHub\\OrgMatApp_CRUD\\OrgMat\\OrgMat\\wwwroot\\js\\site.js",

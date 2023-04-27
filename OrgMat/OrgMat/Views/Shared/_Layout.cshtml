@@ -15,9 +15,9 @@
 </head>
 <body>
 
-    <header id="header" class="header fixed-top d-flex align-items-center d-print-none">
+    <header id="header" class="header fixed-top d-flex align-items-center d-print-none" style="background-color:#27187e">
         <div class="d-flex align-items-center justify-content-between">
-            <a class="navbar-brand" href="#"><img src="~/images/orgmaticon.png" alt="OrgMat Logo" width="120"></a>
+            <a class="navbar-brand" href="#"><img src="~/images/orgmat.png" alt="OrgMat Logo" width="160"></a>
         </div>
         <nav class="header-nav ms-auto">
             <ul class="d-flex align-items-center">
@@ -30,7 +30,7 @@
         <ul class="sidebar-nav" id="sidebar-nav">
 
             <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a>
             </li>
 
             <li class="nav-item">
@@ -50,14 +50,22 @@
                     <i class="bi bi-file-earmark-plus"></i><span>Cadastros</span><i class="bi bi-chevron-down ms-auto"></i>
                 </a>
                 <ul id="cadastros_nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
-                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Material" asp-action="Cadastrar">Material</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Criticidade" asp-action="Cadastrar">Criticidade</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Setor" asp-action="Cadastrar">Setor</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Cliente" asp-action="Cadastrar">Cliente</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Local" asp-action="Cadastrar">Local</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Tipo" asp-action="Cadastrar">Tipo</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Fornecedor" asp-action="Cadastrar">Fornecedor</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Material" asp-action="Cadastrar">Material</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Criticidade" asp-action="Cadastrar">Criticidade</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Setor" asp-action="Cadastrar">Setor</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Cliente" asp-action="Cadastrar">Cliente</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Local" asp-action="Cadastrar">Local</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Tipo" asp-action="Cadastrar">Tipo</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Fornecedor" asp-action="Cadastrar">Fornecedor</a></li>
                 </ul>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Manutencao" asp-action="Index">Manutenção</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="OC" asp-action="Index">Ordem de Compra</a>
             </li>
 
             <li class="nav-item">
@@ -65,8 +73,8 @@
                     <i class="bi bi-gear"></i><span>Configuração</span><i class="bi bi-chevron-down ms-auto"></i>
                 </a>
                 <ul id="config_nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
-                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Movimentacao" asp-action="Cadastrar">Cadastrar Usuário</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Movimentacao" asp-action="Index">Usuários</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Movimentacao" asp-action="Cadastrar">Cadastrar Usuário</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Movimentacao" asp-action="Index">Usuários</a></li>
                 </ul>
             </li>
 

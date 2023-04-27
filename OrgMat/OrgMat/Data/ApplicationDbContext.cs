@@ -10,7 +10,11 @@ public class ApplicationDbContext : IdentityDbContext
     {
 
     }
-
+    //Tipo
     public DbSet<TipoModel> Tipo { get; set; }
+
+    //Criticidade
+    public DbSet<CriticidadeModel> Criticidade { get; set; }
+
 }
 

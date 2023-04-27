@@ -9,73 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OrgMat
 build_property.RootNamespace = OrgMat
-build_property.ProjectDir = c:\Users\OP8973\Documents\GitHub\OrgMatApp_CRUD\OrgMat\OrgMat\
+build_property.ProjectDir = C:\Users\OP8973\Documents\GitHub\OrgMatApp_CRUD\OrgMat\OrgMat\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\OP8973\Documents\GitHub\OrgMatApp_CRUD\OrgMat\OrgMat
+build_property.MSBuildProjectDirectory = C:\Users\OP8973\Documents\GitHub\OrgMatApp_CRUD\OrgMat\OrgMat
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Home/Index.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Home/Privacy.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Login/Index.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Material/Cadastrar.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Material/Cadastrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxcQ2FkYXN0cmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Material/Index.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Material/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Shared/Error.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Tipo/Cadastrar.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Tipo/Cadastrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xDYWRhc3RyYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Tipo/Editar.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Tipo/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Tipo/Index.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Tipo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Tipo/Visualizar.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Tipo/Visualizar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xWaXN1YWxpemFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/_ViewImports.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/_ViewStart.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Shared/_Layout.cshtml]
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-p5zx05py8h

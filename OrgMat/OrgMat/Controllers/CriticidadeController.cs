@@ -5,12 +5,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OrgMat.Controllers
 {
-    public class TipoController : Controller
+    public class CriticidadeController : Controller
     {
         // Construtor
         private readonly ApplicationDbContext contexto;
 
-        public TipoController(ApplicationDbContext contexto)
+        public CriticidadeController(ApplicationDbContext contexto)
         {
             this.contexto = contexto;
         }
@@ -20,10 +20,9 @@ namespace OrgMat.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var tipos = await contexto.Tipo.ToListAsync();
-            return View(tipos);
+            var criticidades = await contexto.Criticidade.ToListAsync();
+            return View(criticidades);
         }
-
 
         //Pagina de Cadastro
         [HttpGet]
@@ -32,16 +31,16 @@ namespace OrgMat.Controllers
             return View();
         }
 
-        // Criando um novo Tipo
+        // Criando um novo Criticidade
         [HttpPost]
-        public async Task<IActionResult> Create(TipoModel createTipoRequest)
+        public async Task<IActionResult> Create(CriticidadeModel createCriticidadeRequest)
         {
-            var tipo = new TipoModel
+            var criticidade = new CriticidadeModel
             {
-                tipo = createTipoRequest.tipo
+                criticidade = createCriticidadeRequest.criticidade
             };
 
-            contexto.Tipo.Add(tipo);
+            contexto.Criticidade.Add(criticidade);
             try
             {
                 await contexto.SaveChangesAsync();
@@ -54,41 +53,40 @@ namespace OrgMat.Controllers
         }
         // Fim - Criando um novo Tipo
 
-        // Visualização
+        //Visualização
         [HttpGet]
         public async Task<IActionResult> Visualizar(int id)
         {
-            var tipo = await contexto.Tipo.FirstOrDefaultAsync(t => t.id_tipo == id);
-
-            return View(tipo);
+            var criticidade = await contexto.Criticidade.FirstOrDefaultAsync(c => c.id_criticidade == id);
+            return View(criticidade);
         }
         // Fim - Visualização
 
         //Atualização
-        // GET: Página de edição
+        // GET - Página de edição
         [HttpGet]
         public async Task<IActionResult> Editar(int id)
         {
-            var tipo = await contexto.Tipo.FirstOrDefaultAsync(t => t.id_tipo == id);
-            if (tipo == null)
+            var criticidade = await contexto.Criticidade.FirstOrDefaultAsync(c => c.id_criticidade == id);
+            if (criticidade == null)
             {
                 return NotFound();
             }
-            return View(tipo);
+            return View(criticidade);
         }
 
-        // POST: Atualizar registro
+        //Atualização
+        // POST - Atualizar
         [HttpPost]
-        public async Task<IActionResult> Atualizar(TipoModel updateTipoRequest)
+        public async Task<IActionResult> Atualizar(CriticidadeModel updateCriticidadeRequest)
         {
-            var tipo = await contexto.Tipo.FindAsync(updateTipoRequest.id_tipo);
-
-            if (tipo == null)
+            var criticidade = await contexto.Criticidade.FindAsync(updateCriticidadeRequest.id_criticidade);
+            
+            if (criticidade == null)
             {
                 return NotFound();
             }
-
-            tipo.tipo = updateTipoRequest.tipo;
+            criticidade.criticidade = updateCriticidadeRequest.criticidade;
 
             try
             {
@@ -104,18 +102,17 @@ namespace OrgMat.Controllers
 
         //Deletar
         [HttpPost]
-        public async Task<IActionResult> Deletar(TipoModel deleteTipoRequest)
+        public async Task<IActionResult> Deletar(CriticidadeModel deleteCriticidadeRequest)
         {
-            var tipo = await contexto.Tipo.FindAsync(deleteTipoRequest.id_tipo);
+            var criticidade = await contexto.Criticidade.FindAsync(deleteCriticidadeRequest.id_criticidade);
 
-            if (tipo == null)
+            if (criticidade == null)
             {
                 return NotFound();
             }
-            contexto.Tipo.Remove(tipo);
+            contexto.Criticidade.Remove(criticidade);
             await contexto.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
     }
 }
