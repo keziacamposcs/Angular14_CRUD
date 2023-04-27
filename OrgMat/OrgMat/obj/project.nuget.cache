@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aS3Sm/og7/N3PxLzUAac8t6U2u6Yats4EAAkm9JElDhbxCaAJdj8mu37UPtS0pEUgeXwKwnR5T978WMlgOuj9w==",
+  "dgSpecHash": "J1jbz7l763CgIsDS7b8LSznvutu0+OMGE/I5yaWMmIl7+OhKT+KKNDk8diUxHnODd2D0tiHYflRqzZDjnVEGVg==",
   "success": true,
   "projectFilePath": "C:\\Users\\OP8973\\Documents\\GitHub\\OrgMatApp_CRUD\\OrgMat\\OrgMat\\OrgMat.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,9 @@
     "C:\\Users\\OP8973\\.nuget\\packages\\angularjs.route\\1.8.2\\angularjs.route.1.8.2.nupkg.sha512",
     "C:\\Users\\OP8973\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\OP8973\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\OP8973\\.nuget\\packages\\jquery\\1.9.0\\jquery.1.9.0.nupkg.sha512",
+    "C:\\Users\\OP8973\\.nuget\\packages\\jquery.inputmask\\5.0.8\\jquery.inputmask.5.0.8.nupkg.sha512",
+    "C:\\Users\\OP8973\\.nuget\\packages\\jquery.maskedinput\\1.4.1\\jquery.maskedinput.1.4.1.nupkg.sha512",
     "C:\\Users\\OP8973\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\OP8973\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\OP8973\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",

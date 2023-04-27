@@ -103,6 +103,14 @@
             "angularjs": {
               "target": "Package",
               "version": "[1.8.2, )"
+            },
+            "jQuery.InputMask": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "jQuery.MaskedInput": {
+              "target": "Package",
+              "version": "[1.4.1, )"
             }
           },
           "imports": [

@@ -20,6 +20,38 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Criticidade/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JpdGljaWRhZGVcQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Criticidade/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JpdGljaWRhZGVcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Criticidade/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JpdGljaWRhZGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Criticidade/Visualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JpdGljaWRhZGVcVmlzdWFsaXphci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Fornecedor/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxDYWRhc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Fornecedor/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxFZGl0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Fornecedor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Fornecedor/Visualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybmVjZWRvclxWaXN1YWxpemFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +70,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Material/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZXJpYWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Setor/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0b3JcQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Setor/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0b3JcRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Setor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0b3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Setor/Visualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0b3JcVmlzdWFsaXphci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/OP8973/Documents/GitHub/OrgMatApp_CRUD/OrgMat/OrgMat/Views/Shared/Error.cshtml]

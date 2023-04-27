@@ -1,17 +1,18 @@
-﻿@model OrgMat.Models.TipoModel
+﻿@model OrgMat.Models.SetorModel
 
 @{
     ViewData["Title"] = "Visualizar";
 }
 
+
 <div class="pagetitle">
   <div class="row">
     <div class="col-md-6">
-      <h1 class="display-4">Visualização: Tipo</h1>
+    <h1 class="display-4"> Visualização: Setor</h1>
     </div>
     <div class="col-md-6">
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <a class="btn btn-primary" role="button" asp-area="" asp-controller="Tipo" asp-action="Index">Voltar</a>
+        <a class="btn btn-primary" role="button" asp-area="" asp-controller="Setor" asp-action="Index"> Voltar </a>
       </div>
     </div>
   </div>
@@ -22,8 +23,8 @@
         <div class="card">
             <div class="card-body">
                 <form method="post" action="Visualizar">
-                    <label for="inputText" class="col-sm col-form-label">Tipo:</label>
-                    <input type="text" class="form-control" id="tipo" name="tipo" asp-for="tipo" readonly/>
+                    <label for="inputText" class="col-sm col-form-label">Setor:</label>
+                    <input type="text" class="form-control" id="setor" name="setor" asp-for="setor" readonly />
                     <br />
                 </form>
             </div>

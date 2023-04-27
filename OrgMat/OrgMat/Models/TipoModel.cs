@@ -8,8 +8,7 @@ namespace OrgMat.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id_tipo { get; set; }
-        public string tipo { get; set; }
 
-      
+        public string tipo { get; set; }
     }
 }

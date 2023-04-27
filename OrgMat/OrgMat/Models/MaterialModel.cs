@@ -21,8 +21,6 @@ namespace OrgMat.Models
 
         public LocalModel local { get; set; }
 
-        public UsuarioModel usuario { get; set; }
-
         public bool ativo { get; set; }
     }
 }

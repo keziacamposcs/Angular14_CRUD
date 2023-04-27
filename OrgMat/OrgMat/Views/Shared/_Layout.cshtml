@@ -30,7 +30,7 @@
         <ul class="sidebar-nav" id="sidebar-nav">
 
             <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Dashboard</a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><i class="bi bi-speedometer2"></i>Dashboard</a>
             </li>
 
             <li class="nav-item">
@@ -39,6 +39,7 @@
                 </a>
                 <ul id="listas_nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
                     <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Material" asp-action="Index">Materiais</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Criticidade" asp-action="Index">Criticidade</a></li>
                     <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Tipo" asp-action="Index">Tipos</a></li>
                     <li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Fornecedor" asp-action="Index">Fornecedor</a></li>
 
@@ -52,20 +53,20 @@
                 <ul id="cadastros_nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
                     <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Material" asp-action="Cadastrar">Material</a></li>
                     <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Criticidade" asp-action="Cadastrar">Criticidade</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Tipo" asp-action="Cadastrar">Tipo</a></li>
                     <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Setor" asp-action="Cadastrar">Setor</a></li>
                     <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Cliente" asp-action="Cadastrar">Cliente</a></li>
                     <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Local" asp-action="Cadastrar">Local</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Tipo" asp-action="Cadastrar">Tipo</a></li>
                     <li class="nav-item"><a class="nav-link" asp-area="" asp-controller="Fornecedor" asp-action="Cadastrar">Fornecedor</a></li>
                 </ul>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="Manutencao" asp-action="Index">Manutenção</a>
+                <a class="nav-link" asp-area="" asp-controller="Manutencao" asp-action="Index"><i class="bi bi-hammer"></i>Manutenção</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" asp-area="" asp-controller="OC" asp-action="Index">Ordem de Compra</a>
+                <a class="nav-link" asp-area="" asp-controller="OC" asp-action="Index"><i class="bi bi-cart2"></i>Ordem de Compra</a>
             </li>
 
             <li class="nav-item">
@@ -97,6 +98,9 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery.inputmask/dist/jquery.inputmask.bundle.min.js"></script>
+    <script src="~/lib/jquery.inputmask/dist/jquery.mask.min.js"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

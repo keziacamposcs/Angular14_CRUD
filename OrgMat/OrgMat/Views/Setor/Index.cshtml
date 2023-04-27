@@ -1,17 +1,16 @@
-﻿@model List<OrgMat.Models.TipoModel>
+﻿@model List<OrgMat.Models.SetorModel>
 @{
     ViewData["Title"] = "Index";
 }
 
-
 <div class="pagetitle">
   <div class="row">
     <div class="col-md-6">
-        <h1 class="display-4"> Tipo de Material</h1>
+    <h1 class="display-4"> Setor do Material</h1>
     </div>
     <div class="col-md-6">
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <a class="btn btn-primary" role="button" asp-area="" asp-controller="Tipo" asp-action="Cadastrar"> Cadastrar novo </a>
+        <a class="btn btn-primary" role="button" asp-area="" asp-controller="Setor" asp-action="Cadastrar"> Cadastrar novo </a>
       </div>
     </div>
   </div>
@@ -24,11 +23,11 @@
         <div class="card">
             <br />
             <div class="card-body">
+
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th scope="col">ID</th>
-                            <th scope="col">Tipo</th>
+                            <th scope="col">Setor</th>
                             <th scope="col">Ações</th>
                         </tr>
                     </thead>
@@ -36,11 +35,10 @@
                         @foreach (var item in Model)
                         {
                             <tr>
-                                <td>@item.id_tipo</td>
-                                <td>@item.tipo</td>
+                                <td>@item.setor</td>
                                 <td>
-                                    <a class="btn btn-primary" href="Tipo/Visualizar/@item.id_tipo"><i class="bi bi-eye"></i></a>
-                                    <a class="btn btn-success" href="Tipo/Editar/@item.id_tipo"><i class="bi bi-pencil"></i></a>
+                                    <a class="btn btn-primary" href="Setor/Visualizar/@item.id_setor"><i class="bi bi-eye"></i></a>
+                                    <a class="btn btn-success" href="Setor/Editar/@item.id_setor"><i class="bi bi-pencil"></i></a>
                                 </td>
                             </tr>
                         }
